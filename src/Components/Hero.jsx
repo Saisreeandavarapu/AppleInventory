@@ -1,13 +1,27 @@
-import { memo } from 'react';
+import { useEffect, useState } from "react";
 
-const Hero = () => {
+export default function Hero() {
+  const images = ["/image1.png", "/image27.png","/image28.png","/image29.png"];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((i) => (i + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <div>
-     <div className='bg-[url("/image1.png")] bg-cover bg-center w-full h-[70vh]'>
-       <div className='bg-black/50 w-full h-[70vh]  relative'><span className='xl:text-7xl text-white font-bold tracking-wider absolute top-50 xl:left-100 text-5xl left-30 md:left-80 animate-pulse'>Handled with <br /> AppleCare.</span></div>
-     </div>
+    <div
+      className="h-[70vh] w-full bg-cover bg-center transition-all duration-1000"
+      style={{ backgroundImage: `url(${images[currentIndex]})` }}
+    >
+      <div className="h-full w-full bg-black/50 flex items-center justify-center">
+        <h1 className="text-white text-5xl font-bold animate-pulse">
+          Handled with <br /> AppleCare.
+        </h1>
+      </div>
     </div>
   );
-};
-
-export default memo(Hero);
+}

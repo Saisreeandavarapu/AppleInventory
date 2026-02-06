@@ -1,7 +1,7 @@
 import { memo, useState } from 'react';
 import{ Menu, ShoppingBag, X, } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
-import { useTheme } from '../context/theme';
+// import { useNavigate } from 'react-router-dom';
+// import { useTheme } from '../context/theme';
 
 const Header = () => {
     const[open,setopen]=useState(false);
@@ -13,6 +13,7 @@ const Header = () => {
     // function ThemeButton(){
     //   const{toggleTheme}=useTheme();
     // }
+    
     
   return (
     <div>
