@@ -11,6 +11,14 @@ const AboutUs = () => {
 <div className='mt-4 text-justify text-black/70'>
 Also non-genuine replacement displays may have compromised visual quality and may fail to work correctly. Apple-certified screen repairs are performed by trusted experts who use genuine Apple parts.</div>
      </div>
+     
+     </div>
+     <div className='w-full h-[500px] bg-gray-500/10 text-center '>
+     <div className='xl:text-4xl font-semibold pt-10 text-2xl'>Set up your device with one to one <br />sessions with a Specialist.</div>
+     <div className='xl:w-2/3 '>
+      <img src="/image copy 31.png" alt="" className='w-[90vh] xl:ms-90  p-10'  />
+     </div>
+     <div className='text-md text-black/70  '>When you buy directly from Apple, you can get help transferring your data and making the <br /> most of your new device with our free online Personal Setup sessions.</div>
      </div>
     </div>
   );

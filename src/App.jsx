@@ -16,9 +16,7 @@ function App() {
   
 
   return (
-    <>
-    
-     
+    <>  
     <Header/>
     <BrowserRouter>
       <Routes>

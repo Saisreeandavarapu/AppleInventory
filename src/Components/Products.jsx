@@ -25,7 +25,7 @@ const Products = () => {
           {["All","Phones","Ipad","Watches","Airpods","Laptops","Accessories"].map((item) => (
             <button
               className={`border-2 w-40 h-10 rounded-sm font-bold text-lg tracking-wider
-                ${selectedCategory === item ? 'text-red-600' : 'text-black/80'} 
+                ${selectedCategory === item ? 'text-blue-400' : 'text-black/80'} 
                 hover:text-black/40`}
               key={item}
               onClick={() => handleCategoryClick(item)}
