@@ -1,5 +1,5 @@
 import { memo } from "react";
-import products from "../data";
+import products from "../data/data";
 
 const AllProducts = () => {
   return (

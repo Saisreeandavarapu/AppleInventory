@@ -16,7 +16,7 @@ Also non-genuine replacement displays may have compromised visual quality and ma
      <div className='w-full h-[500px] bg-gray-500/10 text-center '>
      <div className='xl:text-4xl font-semibold pt-10 text-2xl'>Set up your device with one to one <br />sessions with a Specialist.</div>
      <div className='xl:w-2/3 '>
-      <img src="/image copy 31.png" alt="" className='w-[90vh] xl:ms-90  p-10'  />
+      <img src="/image copy 31.png" alt="" className='w-[90vh] xl:ms-90  p-10 md:ms-30'  />
      </div>
      <div className='text-md text-black/70  '>When you buy directly from Apple, you can get help transferring your data and making the <br /> most of your new device with our free online Personal Setup sessions.</div>
      </div>

@@ -10,7 +10,8 @@ const products =
     "offer_price": 99.99,
     "image": "/image.png",
     "add":"Add to Cart",
-    "category":"Accessories"
+    "category":"Accessories",
+    "view":"View more"
   },
   {
     id:2,
@@ -20,7 +21,8 @@ const products =
     "offer_price": 129.99,
     "image": "/image copy.png",
     "add":"Add to Cart",
-    "category":"Watches"
+    "category":"Watches",
+    "view":"View more"
   },
   {
     id:3,
@@ -30,7 +32,8 @@ const products =
     "offer_price": 65.00,
     "image": "/image copy 2.png",
     "add":"Add to Cart",
-    "category":"Accessories"
+    "category":"Accessories",
+    "view":"View more"
   },
   {
     id:4,
@@ -40,7 +43,8 @@ const products =
     "offer_price": 49.99,
     "image": "/image copy 3.png",
     "add":"Add to Cart",
-    "category":"Laptop"
+    "category":"Laptops",
+    "view":"View more"
   },
   {
     id:5,
@@ -50,7 +54,8 @@ const products =
     "offer_price": 22.99,
     "image": "/image copy 12.png",
     "add":"Add to Cart",
-    "category":"Laptop"
+    "category":"Laptops",
+    "view":"View more"
   },
   {
     id:5,
@@ -60,7 +65,8 @@ const products =
     "offer_price": 85.00,
     "image": "/image copy 11.png",
     "add":"Add to Cart",
-    "category":"Laptop"
+    "category":"Laptops",
+    "view":"View more"
   },
   {
     id:6,
@@ -70,7 +76,8 @@ const products =
     "offer_price": 44.99,
     "image": "/image copy 10.png",
     "add":"Add to Cart",
-    "category":"Laptop"
+    "category":"Laptops",
+    "view":"View more"
   },
   {
     id:7,
@@ -80,7 +87,8 @@ const products =
     "offer_price": 64.99,
     "image": "/image copy 13.png",
     "add":"Add to Cart",
-    "category":"Phones"
+    "category":"Phones",
+    "view":"View more"
   },
   {
     id:8,
@@ -90,7 +98,8 @@ const products =
     "offer_price": 32.99,
     "image": "/image copy 4.png",
     "add":"Add to Cart",
-    "category":"Accessories"
+    "category":"Accessories",
+    "view":"View more"
   },
   {
     id:9,
@@ -100,7 +109,8 @@ const products =
     "offer_price": 14.99,
     "image": "/image copy 5.png",
     "add":"Add to Cart",
-    "category":"Accessories"
+    "category":"Accessories",
+    "view":"View more"
   },
   {
     id:10,
@@ -110,7 +120,8 @@ const products =
     "offer_price": 27.99,
     "image": "/image copy 14.png",
     "add":"Add to Cart",
-    "category":"phones"
+    "category":"phones",
+    "view":"View more"
   },
   {
     id:11,
@@ -120,7 +131,8 @@ const products =
     "offer_price": 59.99,
     "image": "/image copy 15.png",
     "add":"Add to Cart",
-    "category":"Phones"
+    "category":"Phones",
+    "view":"View more"
   },
   {
     id:12,
@@ -130,7 +142,8 @@ const products =
     "offer_price": 179.99,
     "image": "/image copy 16.png",
     "add":"Add to Cart",
-    "category":"Phones"
+    "category":"Phones",
+    "view":"View more"
   },
   {
     id:13,
@@ -140,7 +153,8 @@ const products =
     "offer_price": 18.99,
     "image": "/image copy 17.png",
     "add":"Add to Cart",
-    "category":"Accessories"
+    "category":"Accessories",
+    "view":"View more"
   },
   {
     id:14,
@@ -150,7 +164,8 @@ const products =
     "offer_price": 36.99,
     "image": "/image copy 18.png",
     "add":"Add to Cart",
-    "category":"Accessories"
+    "category":"Accessories",
+    "view":"View more"
   },
   {
     id:15,
@@ -160,7 +175,8 @@ const products =
     "offer_price": 23.99,
     "image": "/image copy 19.png",
     "add":"Add to Cart",
-    "category":"Accessories"
+    "category":"Accessories",
+    "view":"View more"
   },
   {
     id:16,
@@ -170,7 +186,8 @@ const products =
     "offer_price": 54.99,
     "image": "/image copy 20.png",
     "add":"Add to Cart",
-    "category":"Phones"
+    "category":"Phones",
+    "view":"View more"
   },
   {
     id:17,
@@ -180,7 +197,8 @@ const products =
     "offer_price": 94.99,
     "image": "/image copy 21.png",
     "add":"Add to Cart",
-    "category":"Airpods"
+    "category":"Airpods",
+    "view":"View more"
   },
   {
     id:18,
@@ -190,7 +208,8 @@ const products =
     "offer_price": 39.99,
     "image": "/image copy 22.png",
     "add":"Add to Cart",
-    "category":"Airpods"
+    "category":"Airpods",
+    "view":"View more"
   },
   {
     id:19,
@@ -200,7 +219,8 @@ const products =
     "offer_price": 34.99,
     "image": "/image copy 23.png",
     "add":"Add to Cart",
-    "category":"Airpods"
+    "category":"Airpods",
+    "view":"View more"
   },
   {
     id:20,
@@ -210,7 +230,8 @@ const products =
     "offer_price": 9.99,
     "image": "/image copy 24.png",
     "add":"Add to Cart",
-    "category":"Watches"
+    "category":"Watches",
+    "view":"View more"
   },
   {
     id:21,
@@ -220,7 +241,8 @@ const products =
     "offer_price": 19.99,
     "image": "/image copy 25.png",
     "add":"Add to Cart",
-    "category":"Watches"
+    "category":"Watches",
+    "view":"View more"
   },
   {
     id:22,
@@ -230,7 +252,8 @@ const products =
     "offer_price": 31.99,
     "image": "/image copy 26.png",
     "add":"Add to Cart",
-    "category":"Watches"
+    "category":"Watches",
+    "view":"View more"
   },
  
 ]
